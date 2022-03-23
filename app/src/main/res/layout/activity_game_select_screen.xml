@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="430dp"
+        android:layout_height="748dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jeozonebackground2" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/jeozonelogotransparent" />
+
+    <TextView
+        android:id="@+id/mapSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON WHICH CONTINENT WOULD YOU LIKE TO PLAY?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/europeButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="EUROPE"
+        app:layout_constraintBottom_toTopOf="@+id/naButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapSelection"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/asiaButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:text="ASIA"
+        app:layout_constraintEnd_toStartOf="@+id/africaButton"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toEndOf="@+id/europeButton"
+        app:layout_constraintTop_toBottomOf="@+id/mapSelection" />
+
+    <Button
+        android:id="@+id/naButton"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:text="N. AMERICA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asiaButton"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <Button
+        android:id="@+id/saButton"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="S. AMERICA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toEndOf="@+id/naButton"
+        app:layout_constraintTop_toBottomOf="@+id/asiaButton"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <Button
+        android:id="@+id/africaButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="AFRICA"
+        app:layout_constraintBottom_toTopOf="@+id/saButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapSelection"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/worldButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE WORLD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naButton"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

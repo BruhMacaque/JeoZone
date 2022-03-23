@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JeoZone">
         <activity
+            android:name=".GameSelectScreen"
+            android:exported="false" />
+        <activity
+            android:name=".InstructionsPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
