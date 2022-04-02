@@ -3,13 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidProjects/JeoZone/app/src/main/res/layout/activity_game_select_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidProjects/JeoZone/app/src/main/res/layout/activity_game_select_screen.xml" value="0.33" />
         <entry key="..\:/AndroidProjects/JeoZone/app/src/main/res/layout/activity_instructions_page.xml" value="0.275" />
-        <entry key="..\:/AndroidProjects/JeoZone/app/src/main/res/layout/activity_main.xml" value="0.275" />
-        <entry key="..\:/Users/pkhatri/AndroidStudioProjects/JeoZone/app/src/main/res/layout/activity_game_select_screen.xml" value="0.1" />
-        <entry key="..\:/Users/pkhatri/AndroidStudioProjects/JeoZone/app/src/main/res/layout/activity_instructions_page.xml" value="0.1" />
-        <entry key="..\:/Users/pkhatri/AndroidStudioProjects/JeoZone/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/pkhatri/AndroidStudioProjects/JeoZone/app/src/main/res/layout/game_screen.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/JeoZone/app/src/main/res/layout/activity_main.xml" value="0.33" />
       </map>
     </option>
   </component>

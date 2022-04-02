@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class GameSelectScreen extends AppCompatActivity {
     private Button returnToMenu;
+    private int e = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class GameSelectScreen extends AppCompatActivity {
     }
     public void openMainMenu(){
         Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        e += 1;
+        //startActivity(intent);
     }
 }
