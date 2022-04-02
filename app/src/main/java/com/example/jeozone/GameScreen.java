@@ -69,6 +69,7 @@ public class GameScreen extends AppCompatActivity {
                 }
                 //Updates the points and congrats message:
                 setContentOfTextView(R.id.points, "" + points);
+
                 setContentOfTextView(R.id.message, message);
                 //PopupWindow continue = new PopupWindow(View view); //If a popup window is being used, then it will be used here.
             }
